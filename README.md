@@ -2,6 +2,8 @@
 
 Löwe is an open-source FPGA development board for the Cologne Chip GateMate CCGM1A1.
 
+![Löwe FPGA Board](https://github.com/machdyne/lowe/blob/2ebf3f84a9dffbef5f0a59aada39bb4e460ef6d9/lowe.png)
+
 This repo contains PCB layouts, schematics, pinouts and example gateware.
 
 Find more information on the [Löwe product page](https://machdyne.com/product/lowe-fpga-board/).
