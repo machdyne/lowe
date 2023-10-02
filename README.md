@@ -49,9 +49,8 @@ See the [MMOD repo](https://github.com/machdyne/mmod/) for details.
 The 3.3V JTAG header can be used to program the FPGA SRAM as well as the MMOD flash memory.
 
 ```
-1 2
-3 4
-5 6
+5 3 1
+6 4 2
 ```
 
 | Pin | Signal |
