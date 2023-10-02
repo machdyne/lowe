@@ -65,6 +65,10 @@ The 3.3V JTAG header can be used to program the FPGA SRAM as well as the MMOD fl
 
 [^1]: This pin can be used to power the board with an external regulated 5V power supply, instead of USB power.
 
+## Funding
+
+This project was partially funded through the NGI0 Entrust Fund, a fund established by NLnet with financial support from the European Commission's Next Generation Internet programme.
+
 ## License
 
 The contents of this repo are released under the [Lone Dynamics Open License](LICENSE.md) with the following exceptions:
