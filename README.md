@@ -18,7 +18,7 @@ You can build each example with:
 $ make && make impl
 ```
 
-You can then use [openFPGALoader](https://github.com/trabucayre/openFPGALoader) to write the gateware to SRAM or flash, using a [Werkzeug](https://github.com/machdyne/werkzeug) (loaded with [pico-dirtyJtag](https://github.com/phdussud/pico-dirtyJtag)) in this example:
+You can then use [openFPGALoader](https://github.com/trabucayre/openFPGALoader) to write the gateware to SRAM or flash, using a Raspberry Pi Pico or [Werkzeug](https://github.com/machdyne/werkzeug) (loaded with [pico-dirtyJtag](https://github.com/phdussud/pico-dirtyJtag)) in this example:
 
 ```
 $ openFPGALoader -c dirtyJtag count_00.cfg.bit
