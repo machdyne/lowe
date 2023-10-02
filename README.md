@@ -24,6 +24,26 @@ You can then use [openFPGALoader](https://github.com/trabucayre/openFPGALoader) 
 $ openFPGALoader -c dirtyJtag count_00.cfg.bit
 ```
 
+## Configuration Mode Selection
+
+The board has 4 DIP switches that select the configuration mode:
+
+| Switches | Mode |
+| -------- | ------ |
+| 0000 | SPI Active Mode (CPOL=0 CPHA=0) |
+| 0001 | SPI Active Mode (CPOL=0 CPHA=1) |
+| 0010 | SPI Active Mode (CPOL=1 CPHA=0) |
+| 0011 | SPI Active Mode (CPOL=1 CPHA=1) |
+| 0100 | SPI Passive Mode (CPOL=0 CPHA=0) |
+| 0101 | SPI Passive Mode (CPOL=0 CPHA=1) |
+| 0110 | SPI Passive Mode (CPOL=1 CPHA=0) |
+| 0111 | SPI Passive Mode (CPOL=1 CPHA=1) |
+| 1100 | JTAG |
+
+## MMOD Header
+
+See the [MMOD repo](https://github.com/machdyne/mmod/) for details.
+
 ## JTAG Header
 
 The 3.3V JTAG header can be used to program the FPGA SRAM as well as the MMOD flash memory.
